@@ -1,6 +1,11 @@
 #!/usr/bin/env node
 var Promise = require('bluebird');
 var phantomas = Promise.promisifyAll(require('phantomas'));
+var reference = require('./reference');
+
+exports.getReference = function() {
+  return reference;
+};
 
 exports.output = function(url) {
   return new Promise(
