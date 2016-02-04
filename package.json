@@ -1,0 +1,26 @@
+{
+  "name": "keepfast-contrib-phantomas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keepfast/keepfast-contrib-phantomas.git"
+  },
+  "keywords": [
+    "keepfast"
+  ],
+  "author": "Davidson Fellipe <davidsonfellipe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keepfast/keepfast-contrib-phantomas/issues"
+  },
+  "homepage": "https://github.com/keepfast/keepfast-contrib-phantomas#readme",
+  "dependencies": {
+    "bluebird": "^3.2.1",
+    "phantomas": "^1.14.0"
+  }
+}
