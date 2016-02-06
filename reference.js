@@ -23,7 +23,7 @@ module.exports = {
       'all': 130824
     },
     'cssCount': {
-      'all': 1
+      'all': 7.7
     },
     'cssSize': {
       'all': 121054
