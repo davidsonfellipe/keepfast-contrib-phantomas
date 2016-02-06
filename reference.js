@@ -29,19 +29,19 @@ module.exports = {
       'all': 121054
     },
     'jsCount': {
-      'all': 26
+      'all': 22
     },
     'jsSize': {
       'all': 532486
     },
     'imageCount': {
-      'all': 50
+      'all': 54
     },
     'imageSize': {
       'all': 303427
     },
     'webfontCount': {
-      'all': 1
+      'all': 3.1
     },
     'webfontSize': {
       'all': 11624
