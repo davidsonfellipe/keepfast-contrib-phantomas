@@ -8,7 +8,7 @@ module.exports = {
       'all': 99
     },
     'httpsRequests': {
-      'all': 0.25
+      'all': 9.3
     },
     'bodySize': {
       'all': 938159
@@ -26,25 +26,25 @@ module.exports = {
       'all': 7.7
     },
     'cssSize': {
-      'all': 121054
+      'all': 76000
     },
     'jsCount': {
       'all': 22
     },
     'jsSize': {
-      'all': 532486
+      'all': 358000
     },
     'imageCount': {
       'all': 54
     },
     'imageSize': {
-      'all': 303427
+      'all': 1420000
     },
     'webfontCount': {
       'all': 3.1
     },
     'webfontSize': {
-      'all': 11624
+      'all': 120000
     },
     'otherCount': {
       'all': 6
