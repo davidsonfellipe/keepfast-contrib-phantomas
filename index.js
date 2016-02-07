@@ -15,7 +15,7 @@ exports.output = function(url) {
     .then(function() {
       return phantomas(
           url,
-          {timeout: 30}
+          {timeout: 50}
         ).then(
           function() {
             return {
@@ -25,7 +25,11 @@ exports.output = function(url) {
             };
           },
           function() {
-            return arguments;
+            return {
+              'url': url,
+              'plugin': reference.plugin,
+              'sensors': {}
+            };
           }
         );
     });
