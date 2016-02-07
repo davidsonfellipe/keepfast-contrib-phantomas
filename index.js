@@ -18,7 +18,11 @@ exports.output = function(url) {
           {timeout: 30}
         ).then(
           function() {
-            return arguments[0].json.metrics;
+            return {
+              'url': url,
+              'plugin': reference.plugin,
+              'sensors': arguments[0].json.metrics
+            };
           },
           function() {
             return arguments;
