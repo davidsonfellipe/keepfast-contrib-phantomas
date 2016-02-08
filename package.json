@@ -1,7 +1,7 @@
 {
   "name": "keepfast-contrib-phantomas",
-  "version": "1.0.8",
-  "description": "",
+  "version": "1.0.9",
+  "description": "Plugin for keepfast support Phantomas",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

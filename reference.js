@@ -3,107 +3,255 @@ module.exports = {
   'sensors': {
     'notFound': {
       'label': 'Number of HTTP 404 responses',
-      'all': 0
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '0',
+        'condition': '=',
+        'result': true,
+        'unit': ''
+      }]
     },
     'requests': {
       'label': 'Total number of HTTP requests',
-      'all': 99
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '99',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'httpsRequests': {
       'label': 'Total number of HTTPS requests',
-      'all': 9.3
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '99',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'bodySize': {
       'label': 'Size of the content of all responses',
-      'all': 938159
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '938159',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
     },
     'contentLength': {
       'label': 'Size of the content of all responses',
-      'all': 1165716
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '1165716',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
     },
     'htmlCount': {
       'label': 'Number of HTML responses',
-      'all': 10
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '10',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'htmlSize': {
-      'label': 'Total number of HTTPS requests made',
-      'all': 130824
+      'label': 'Size of HTML responses',
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '130824',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
     },
     'cssCount': {
       'label': 'Number of CSS responses',
-      'all': 7.7
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '8',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'cssSize': {
       'label': 'Size of CSS responses',
-      'all': 76000
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '76000',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
     },
     'jsCount': {
       'label': 'Number of JS responses',
-      'all': 22
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '22',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'jsSize': {
       'label': 'Size of JS responses',
-      'all': 358000
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '358000',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
     },
     'imageCount': {
       'label': 'Number of image responses',
-      'all': 54
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '54',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'imageSize': {
       'label': 'Size of image responses',
-      'all': 1420000
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '1420000',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
     },
     'webfontCount': {
       'label': 'Number of web font responses',
-      'all': 3.1
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '3.1',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'webfontSize': {
       'label': 'Size of web font responses',
-      'all': 120000
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '120000',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
+
     },
     'otherCount': {
       'label': 'Number of other responses',
-      'all': 6
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '6',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'otherSize': {
       'label': 'Size of other responses',
-      'all': 7439
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '7439',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
+
     },
     'DOMelementsCount': {
       'label': 'Total number of HTML element nodes',
-      'all': 894
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '894',
+        'condition': '<',
+        'result': true,
+        'unit': 'elements'
+      }]
     },
     'DOMelementMaxDepth': {
       'label': 'Maximum level on nesting of HTML element node',
-      'all': 13
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '13',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'imagesWithoutDimensions': {
       'label': 'Number of <img> nodes without both width and height attribute',
-      'all': 0
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '0',
+        'condition': '=',
+        'result': true,
+        'unit': ''
+      }]
     },
     'DOMidDuplicated': {
       'label': 'Number of duplicated IDs found in DOM',
-      'all': 0
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '0',
+        'condition': '=',
+        'result': true,
+        'unit': ''
+      }]
     },
     'domains': {
       'label': 'Number of domains used to fetch the page',
-      'all': 17
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '17',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'maxRequestsPerDomain': {
       'label': 'Maximum number of requests fetched from a single domain',
-      'all': 52
-    },
-    'medianRequestsPerDomain': {
-      'label': 'Median of requests fetched from each domain',
-      'all': 1
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '52',
+        'condition': '<',
+        'result': true,
+        'unit': ''
+      }]
     },
     'assetsNotGzipped': {
       'label': 'Static assets that were not gzipped',
-      'all': 10
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '0',
+        'condition': '=',
+        'result': true,
+        'unit': ''
+      }]
     },
     'bodyHTMLSize': {
       'label': 'The size of body tag content (document.body.innerHTML.length)',
-      'all': 321684
+      'criteria': [{
+        'plataform': 'all',
+        'expected': '321684',
+        'condition': '<',
+        'result': true,
+        'unit': 'bytes'
+      }]
     }
   }
 }
