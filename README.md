@@ -1,6 +1,6 @@
 #keepfast-contrib-phantomas
 
-Keepfast in your command line with reporting.
+Plugin for Keepfast support Phantomas
 
  [![npm version](https://badge.fury.io/js/keepfast-contrib-phantomas.svg)](https://badge.fury.io/js/keepfast-contrib-phantomas)
 
