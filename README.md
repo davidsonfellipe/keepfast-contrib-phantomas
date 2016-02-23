@@ -13,3 +13,7 @@ Plugin for Keepfast support Phantomas.
 ```
 $ npm i keepfast-contrib-phantomas --save
 ```
+
+## License 📖
+
+Code is under [MIT](http://davidsonfellipe.mit-license.org) license
