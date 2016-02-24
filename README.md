@@ -1,11 +1,11 @@
 #keepfast-contrib-phantomas
 
-Plugin for Keepfast support Phantomas
+Plugin for Keepfast support Phantomas.
 
  [![npm version](https://badge.fury.io/js/keepfast-contrib-phantomas.svg)](https://badge.fury.io/js/keepfast-contrib-phantomas)
  [![npm version](https://david-dm.org/keepfast/keepfast-contrib-phantomas.svg)](https://david-dm.org/keepfast/keepfast-contrib-phantomas.svg)
- [![Code Climate](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas/badges/gpa.svg)](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas)
- [![Issue Count](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas/badges/issue_count.svg)](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas)
+ [![Code Climate](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas/badges/gpa.svg?)](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas?)
+ [![Issue Count](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas/badges/issue_count.svg?)](https://codeclimate.com/github/keepfast/keepfast-contrib-phantomas?)
 
 
 ## Install
@@ -13,3 +13,7 @@ Plugin for Keepfast support Phantomas
 ```
 $ npm i keepfast-contrib-phantomas --save
 ```
+
+## License 📖
+
+Code is under [MIT](http://davidsonfellipe.mit-license.org) license
